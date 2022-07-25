@@ -1,0 +1,7 @@
+.contact-with-me.div{
+  display: none;
+}
+.contact-with-me.div:hover{
+  display: initial;
+  position: fixed;
+}
