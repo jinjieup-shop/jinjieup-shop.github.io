@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>成长小铺 - 会考</title>
+    <!-- 引入logo图 -->
+    <link
+      rel="shortcut icon"
+      href="https://i0.hdslb.com/bfs/album/06fe18483227d039c3fe7f1d26d5d4fcdf483de3.png"
+    />
+    <link
+      rel="icon"
+      href="https://i0.hdslb.com/bfs/album/06fe18483227d039c3fe7f1d26d5d4fcdf483de3.png"
+    />
+    <!-- 引入CSS文件 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://shop.jinjieup.tk">
+          <img
+            src="https://i0.hdslb.com/bfs/album/06fe18483227d039c3fe7f1d26d5d4fcdf483de3.png"
+            alt=""
+            height="35"
+            class="d-inline-block align-text-top"
+          />
+          成长知识铺
+        </a>
+        <!-- 自适应下拉Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- 导航Button -->
+          <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://shop.jinjieup.tk/"
+                >首页</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" onclick="alert('小主太懒，还没开发导航栏555~')">初中资料</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="alert('小主太懒，还没开发导航栏555~')">小升初简历</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="alert('小主太懒，还没开发导航栏555~')">录播课程出售</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://shop.jinjieup.tk/contact/contact.html">联系小主</a>
+            </li>
+          </ul>
+          <!-- 搜索框 -->
+          <form class="d-flex">
+            <input
+            class="form-control me-2"
+              type="search"
+              placeholder="搜索"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              style="width: 5rem"
+              onclick="alert('搜索功能暂未开放，敬请期待！')"
+            >
+              搜索
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- 侧边功能按钮 -->
+    <div class="btn-group-vertical" style="position: fixed;right: 0;bottom: 15%;z-index: 10000;">
+      <!-- 返回顶端 -->
+      <button type="button" class="btn btn-warning">
+        <a href="#top">
+          <img src="https://i0.hdslb.com/bfs/album/2093e1f698a78390d9ce57b017c6cbd93e096535.png" alt="" style="height: 35px;">
+        </a>
+      </button>
+      <!-- 联系客服 -->
+      <button type="button" class="btn btn-warning">
+        <a href="https://shop.jinjieup.tk/contact/contact.html" class="contact-with-me">
+          <img src="https://i0.hdslb.com/bfs/album/f47b7870eb98ce986aaf2ce79b8d18f583c8d26c.png" alt="" style="height: 35px;">
+        </a>
+    </div>
+    <!-- 轮播图 -->
+    <div style="margin-left: 1%; margin-right: 1%" id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="2500">
+      <div class="carousel-indicators" style="background-color: rgb(188, 188, 188);padding: 1mm;border-radius: 0mm 0mm 1.5mm 1.5mm;">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="width: 93%;height: 90%;margin-right: auto;margin-left: auto;">
+        <div class="carousel-item active">
+          <img src="https://i0.hdslb.com/bfs/album/bee7cabde8db71a61511ed3010a827f4552bcf82.jpg" class="d-block" style="width: 100%;margin-bottom: 5%;" alt="..."/>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i0.hdslb.com/bfs/album/de29fd1667661a1519442c0fcbf61e0bef5cfd79.jpg" class="d-block" style="width: 100%;margin-bottom: 5%;" alt="..."/>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i0.hdslb.com/bfs/album/69a5846050c1af14b3b4134dc7161e43bd4e2f20.jpg" class="d-block" style="width: 100%;margin-bottom: 5%;" alt="..."/>
+          </div>
+        </div>
+        <button style="background-color: rgb(120, 120, 120);width: 3%;padding-left: 3px;border-radius: 5mm 0mm 0mm 5mm;height: 50%;margin-top: auto;margin-bottom: auto;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button style="background-color: rgb(120, 120, 120);width: 3%;padding-left: 3px;border-radius: 0mm 5mm 5mm 0mm;height: 50%;margin-top: auto;margin-bottom: auto;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- 面包屑导航 -->
+    <nav aria-label="breadcrumb" style="margin-top: 1rem;">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="https://shop.jinjieup.tk">首页</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          会考
+        </li>
+      </ol>
+    </nav>
+    <!-- 分类栏+商品展示 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <!-- 分类列表 -->
+          <div style="margin-left: 0.5rem; margin-right: 1rem">
+            <h3><br>分类列表</br></h3>
+            <ul class="list-group">
+              <!-- 添加active warning -->
+              <a href="https://shop.jinjieup.tk/s/9a0093d4-0e41-11ed-861d-0242ac120002/">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  电子书
+                  <span class="badge bg-primary rounded-pill">4</span>
+                </li>
+              </a>
+              <a href="https://shop.jinjieup.tk/s/513cde18-0e42-11ed-861d-0242ac120002/">
+                <li class="list-group-item d-flex justify-content-between align-items-center active">
+                  会考
+                  <span class="badge bg-warning rounded-pill">4</span>
+                </li>
+              </a>
+              <a href="https://shop.jinjieup.tk/s/7a9e913e-0e42-11ed-861d-0242ac120002/">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  政治
+                  <span class="badge bg-primary rounded-pill">3</span>
+                </li>
+              </a>
+              <a href="https://shop.jinjieup.tk/s/a1fbaa28-0e42-11ed-861d-0242ac120002/">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  历史
+                  <span class="badge bg-primary rounded-pill">3</span>
+                </li>
+              </a>
+              <a href="https://shop.jinjieup.tk/s/c22e633a-0e42-11ed-861d-0242ac120002/">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  生物
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+              </a>
+              <a href="https://shop.jinjieup.tk/s/d9af706c-0e42-11ed-861d-0242ac120002/">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  地理
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <!-- 商品展示 -->
+        <div class="col-9">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- 商品 -->
+            <div class="col">
+              <div class="card">
+                <!-- 替换此图片 -->
+                <img src="https://i0.hdslb.com/bfs/album/b137e150bc889e1ca43bba3f7c8f8634d241cc91.jpg" class="card-img-top" alt="..." style="padding: 10px;">
+                <div class="card-body">
+                  <!-- 替换此标题 -->
+                  <h5 class="card-title">初二下生物地理会考资料</h5>
+                  <!-- 替换此标签<badage> -->
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">地理</span>
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">生物</span>
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">会考</span>
+                  <!-- 替换价格 -->
+                  <h3 class="card-title" style="color: red;">CNY 15.9</h3>
+                  <!-- 替换此简介 -->
+                  <p class="card-text">成都孩子一定会用到的初二下学期生物地理会考复习资料~当年小主可是满分通过哟~</p>
+                  <!-- 替换超链接 -->
+                  <a href="https://shop.jinjieup.tk/list/8d244114-0c0d-11ed-861d-0242ac120002/8d244114-0c0d-11ed-861d-0242ac120002.html" class="btn btn-primary text-end">了解详情</a>
+                </div>
+              </div>
+            </div>
+            <!-- 商品 -->
+            <div class="col">
+              <div class="card">
+                <!-- 替换此图片 -->
+                <img src="https://i0.hdslb.com/bfs/album/827bd557a94bb507487518ac5d9189f7f731c163.jpg" class="card-img-top" alt="..." style="padding: 10px;">
+                <div class="card-body">
+                  <!-- 替换此标题 -->
+                  <h5 class="card-title">政治历史汇总资料合集</h5>
+                  <!-- 替换此标签<badage> -->
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">政治</span>
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">历史</span>
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">会考</span>
+                  <!-- 替换价格 -->
+                  <h3 class="card-title" style="color: red;">CNY 29.9</h3>
+                  <!-- 替换此简介 -->
+                  <p class="card-text">觉得单独购买两科太贵？看这！有优惠！</p>
+                  <!-- 替换超链接 -->
+                  <a href="https://shop.jinjieup.tk/list/d822806e-0c93-11ed-861d-0242ac120002/d822806e-0c93-11ed-861d-0242ac120002.html" class="btn btn-primary text-end">了解详情</a>
+                </div>
+              </div>
+            </div>
+            <!-- 商品 -->
+            <div class="col">
+              <div class="card">
+                <!-- 替换此图片 -->
+                <img src="https://i0.hdslb.com/bfs/album/0f021f1135919d041adb9cda7fb39d301b092ecf.jpg" class="card-img-top" alt="..." style="padding: 10px;">
+                <div class="card-body">
+                  <!-- 替换此标题 -->
+                  <h5 class="card-title">初三下政治会考必备资料</h5>
+                  <!-- 替换此标签<badage> -->
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">政治</span>
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">会考</span>
+                  <!-- 替换价格 -->
+                  <h3 class="card-title" style="color: red;">CNY 19.9</h3>
+                  <!-- 替换此简介 -->
+                  <p class="card-text">政治会考啥也不要怕，跟着资料学习，没有什么难的！</p>
+                  <!-- 替换超链接 -->
+                  <a href="https://shop.jinjieup.tk/list/e5bf5c42-0c7f-11ed-861d-0242ac120002/e5bf5c42-0c7f-11ed-861d-0242ac120002.html" class="btn btn-primary text-end">了解详情</a>
+                </div>
+              </div>
+            </div>
+            <!-- 商品 -->
+            <div class="col">
+              <div class="card">
+                <!-- 替换此图片 -->
+                <img src="https://i0.hdslb.com/bfs/album/9464a1be5acaa684245e73808b65751d10309653.jpg" class="card-img-top" alt="..." style="padding: 10px;">
+                <div class="card-body">
+                  <!-- 替换此标题 -->
+                  <h5 class="card-title">初三下历史会考必备资料</h5>
+                  <!-- 替换此标签<badage> -->
+                    <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">历史</span>
+                  <span class="badage bg-success" style="padding: 3px;border-radius: 6px;color: white;">会考</span>
+                  <!-- 替换价格 -->
+                  <h3 class="card-title" style="color: red;">CNY 19.9</h3>
+                  <!-- 替换此简介 -->
+                  <p class="card-text">历史会考向来都是老大难问题，但只要学透了，便可以轻松应考！</p>
+                  <!-- 替换超链接 -->
+                  <a href="https://shop.jinjieup.tk/list/f84ba8ac-0c8e-11ed-861d-0242ac120002/f84ba8ac-0c8e-11ed-861d-0242ac120002.html" class="btn btn-primary text-end">了解详情</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 页尾 -->
+    <footer class="bg-dark text-center text-white" style="margin-top: 5rem;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/lipeilin375" role="button">
+            <i class="bi bi-facebook"></i>
+          </a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/LiPeilin14" role="button">
+            <i class="bi bi-twitter"></i>
+          </a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/lipeilin375/" role="button">
+            <i class="bi bi-instagram"></i>
+          </a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/jinjieup-shop" role="button">
+            <i class="bi bi-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://shop.jinjieup.tk/">shop.jinjieup.tk</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- 引入JS文件 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://shop.jinjieup.tk/know.js"></script>
+  </body>
+</html>
