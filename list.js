@@ -101,9 +101,7 @@ for (let index = 0; index < list_name.length; index++) {
         <h5 class="card-title">${list_name[index]}</h5>
         ${tag_item[1]}
         <h3 class="card-title" style="color: red;">CNY ${list_price[index]}</h3>
-        <!-- 替换此简介 -->
         <p class="card-text">${list_des[index]}</p>
-        <!-- 替换超链接 -->
         <a href="./list/${list_h[index]}/${list_h[index]}.html" class="btn btn-primary text-end">了解详情</a>
       </div>
     </div>
